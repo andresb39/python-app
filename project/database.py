@@ -26,4 +26,8 @@ def config():
         'PASSWORD': os.getenv('DATABASE_PASSWORD'),
         'HOST': os.getenv('{}_SERVICE_HOST'.format(service_name)),
         'PORT': os.getenv('{}_SERVICE_PORT'.format(service_name)),
+        
+        
+        
+        
     }
